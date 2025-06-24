@@ -2,6 +2,7 @@
 #
 theme = "gruber-darker"
 font-size = 18
+font-family = "Iosevka Nerd Font"
 
 # This template file has been automatically created at the following
 # path since Ghostty couldn't find any existing config files on your system:

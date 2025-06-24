@@ -7,12 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "debugger": {
+    "dock": "left"
+  },
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": "Material Icon Theme",
   "base_keymap": "VSCode",
-  "theme": "Catppuccin Mocha (Blur)",
+  "theme": "Gruvbox Dark Soft",
   "ui_font_size": 20,
   "buffer_font_weight": 600,
   "buffer_line_height": "standard",
