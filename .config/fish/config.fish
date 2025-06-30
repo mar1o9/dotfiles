@@ -11,7 +11,7 @@ alias grep='grep --color=auto'
 alias vpm="vpm --color=auto"
 
 export QT_QPA_PLATFORMTHEME=qt6ct
-export WINEPREFIX=/home/mar/.wine32
+#export WINEPREFIX=/home/mar/.wine32
 export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
 
-eval "$(oh-my-posh init fish --config $HOME/.cache/oh-my-posh/themes/atomic.omp.json)"
+eval "$(oh-my-posh init fish --config /usr/share/oh-my-posh/themes/atomic.omp.json)"

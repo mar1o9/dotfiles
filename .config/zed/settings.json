@@ -13,9 +13,9 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Catppuccin Mocha",
   "base_keymap": "VSCode",
-  "theme": "Gruvbox Dark Soft",
+  "theme": "Catppuccin Mocha (Blur)",
   "ui_font_size": 20,
   "buffer_font_weight": 600,
   "buffer_line_height": "standard",
