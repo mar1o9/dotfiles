@@ -1,7 +1,7 @@
 # This is the configuration file for Ghostty.
 #
 theme = "gruber-darker"
-font-size = 18
+font-size = 20
 font-family = "Iosevka Nerd Font"
 
 # This template file has been automatically created at the following

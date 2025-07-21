@@ -4,6 +4,7 @@
 [init]
 	defaultBranch = main
 [http]
-	postBuffer = 524288000
+	postBuffer = 600000
 [core]
-	compression = 0
+    compression = 0
+    sshCommand = /usr/bin/ssh
