@@ -38,7 +38,6 @@ menus
 mimeapps.list
 msm_notifier.desktop
 nautilus
-nvim
 pamac
 pgadmin4
 profiles
@@ -55,7 +54,6 @@ system-calendar.source
 system-proxy.source
 theme-info.json
 Thunar
-tmux
 ulauncher
 user
 user-dirs.dirs

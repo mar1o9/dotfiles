@@ -15,7 +15,7 @@
   },
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "base_keymap": "VSCode",
-  "theme": "One Dark Pro",
+  "theme": "Base16 IR Black",
   "ui_font_size": 25,
   "buffer_font_weight": 500,
   "buffer_line_height": "standard",
@@ -53,7 +53,7 @@
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-3-5-sonnet"
-    },
+    }
   },
   // Uncomment below to use local AI with Ollama, refer https://zed.dev/docs/language-model-integration?highlight=ollama#using-ollama-on-macos
   // "assistant": {

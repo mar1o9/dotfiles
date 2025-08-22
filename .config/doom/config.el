@@ -21,8 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Iosevka NF" :size 30 :weight 'regular)
-      doom-variable-pitch-font (font-spec :family "Iosevka Nerd Font" :size 20))
+(setq doom-font (font-spec :family "Iosevka Nerd Font" :size 25 :weight 'regular)
+      doom-variable-pitch-font (font-spec :family "IosevkaTerm Nerd Font" :size 18))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -74,12 +74,3 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(map! "C-h" #'windmove-left
-      "C-l" #'windmove-right
-      "C-k" #'windmove-up
-      "C-j" #'windmove-down)
-
-(map! :n "SPC e f" #'treemacs-select-directory
-      :n "SPC e e" #'treemacs
-      :n "SPC eq" #'treemacs-quit
-      :n "SPC tt" #'vterm)
