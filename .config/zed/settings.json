@@ -13,15 +13,16 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "icon_theme": "Symbols Icon Theme",
   "base_keymap": "VSCode",
-  "theme": "Base16 IR Black",
-  "ui_font_size": 25,
+  "theme": "Gruber Darker",
+  "ui_font_size": 26,
   "buffer_font_weight": 500,
   "buffer_line_height": "standard",
-  "buffer_font_size": 25,
+  "buffer_font_size": 26,
   // NOTE: Change the font family to your preference
   "buffer_font_family": "Iosevka Nerd Font Mono",
+  "ui_font_family": "Iosevka Nerd Font Mono",
   // Vim mode settings
   "vim_mode": true,
   "autosave": {
