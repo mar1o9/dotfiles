@@ -15,11 +15,13 @@ hidden = false
 # At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
 [keys.normal]
 C-s = ":w"
-space = { b = ":new", x = ":buffer-close" }
+space = { b = ":new", x = ":buffer-close", v = ":vsplit-new", h = ":hsplit-new" }
 S-l = ":buffer-next"
 S-h = ":buffer-previous"
-C-v = ":vsplit-new"
-C-h = ":hsplit-new"
+C-k = "jump_view_up"
+C-l = "jump_view_right"
+C-j = "jump_view_down"
+C-h = "jump_view_left"
 
 [keys.insert]
 j = { k = "normal_mode" } # Maps `jk` to exit insert mode
