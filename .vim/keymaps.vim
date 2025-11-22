@@ -8,6 +8,11 @@ nnoremap <leader>/ :nohlsearch<CR>
 " Press \\ to jump back to the last cursor position.
 nnoremap <leader>\ ``
 
+nnoremap <leader>b :tabnew<CR>
+nnoremap <leader>x :tabclose<CR>
+nnoremap <s-l> :tabNext<CR>
+nnoremap <s-h> :tablast<CR>
+
 " find files
 map ; :Files<CR>
 
