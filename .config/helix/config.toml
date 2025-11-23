@@ -4,11 +4,24 @@ theme = "gruber-darker"
 line-number = "relative"
 mouse = true
 
+[editor.auto-save]
+after-delay = { enable = true, timeout = 1500 }
+
 [editor.cursor-shape]
 insert = "block"
 normal = "block"
 select = "block"
 
+[editor.whitespace]
+render = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
 
 # At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
 [keys.normal]
