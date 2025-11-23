@@ -9,8 +9,6 @@ insert = "block"
 normal = "block"
 select = "block"
 
-[editor.file-picker]
-hidden = false
 
 # At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
 [keys.normal]
