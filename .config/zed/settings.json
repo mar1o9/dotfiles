@@ -127,7 +127,7 @@
     "**/.settings",
     // above is default from Zed
     "**/out",
-    "**/dist",
+    // "**/dist",
     "**/.husky",
     "**/.turbo",
     "**/.vscode-test",
